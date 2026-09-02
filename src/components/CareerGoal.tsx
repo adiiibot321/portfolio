@@ -10,7 +10,7 @@ export const CareerGoal: React.FC = () => {
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
       >
         <div className="card p-10 md:p-16 text-center border-primary/20 relative overflow-hidden group">
           <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent opacity-50" />

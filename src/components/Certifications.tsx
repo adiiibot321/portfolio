@@ -10,7 +10,7 @@ export const Certifications: React.FC = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
       >
         <span className="label-section">{portfolioData.certifications.label}</span>
         <h2 className="heading-section">{portfolioData.certifications.title}</h2>
@@ -22,7 +22,7 @@ export const Certifications: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.3, delay: index * 0.1 }}
               className="card card-hover p-6 flex items-start gap-4"
             >
               <div className="p-3 bg-primary/10 text-primary rounded-xl shrink-0 mt-1">

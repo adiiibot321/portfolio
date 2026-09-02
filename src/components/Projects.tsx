@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
       >
         <span className="label-section">{portfolioData.projects.label}</span>
         <h2 className="heading-section">{portfolioData.projects.title}</h2>
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               className="card p-8 md:p-10 border-l-4 border-l-primary/50 relative overflow-hidden group"
             >
               {/* Subtle gradient background effect on hover */}

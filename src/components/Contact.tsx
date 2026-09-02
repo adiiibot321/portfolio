@@ -10,7 +10,7 @@ export const Contact: React.FC = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.3 }}
         className="text-center"
       >
         <span className="label-section justify-center">{portfolioData.contact.label}</span>

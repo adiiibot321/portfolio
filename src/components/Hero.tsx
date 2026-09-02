@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.3 }}
           className="mb-8"
         >
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-surface shadow-[0_0_30px_rgba(59,130,246,0.3)] mx-auto relative group">
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.3, delay: 0.05 }}
           className="text-4xl md:text-7xl font-bold tracking-tight text-white mb-4"
         >
           {portfolioData.hero.name}
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.3, delay: 0.1 }}
           className="text-xl md:text-2xl font-medium text-primary mb-6"
         >
           {portfolioData.hero.title}
@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          transition={{ duration: 0.3, delay: 0.15 }}
           className="text-base md:text-lg text-textMuted max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           {portfolioData.hero.description}
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.3, delay: 0.2 }}
           className="flex flex-wrap justify-center gap-4"
         >
           <a 
