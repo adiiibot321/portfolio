@@ -7,7 +7,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/aryan-singh-a34811376/",
     email: "aryansingh06267@gmail.com",
     // We'll require the user to drop the image in src/assets/profile.jpg
-    image: "/profile.png"
+    image: "./profile.png"
   },
   about: {
     label: "// ABOUT",
@@ -129,14 +129,14 @@ export const portfolioData = {
         issuer: "Skill India Digital Hub",
         details: "40 Hours",
         date: "November 16, 2025",
-        link: "/certificates/python-programming.pdf"
+        link: "./certificates/python-programming.pdf"
       },
       {
         title: "Custom Reports in Google Analytics",
         issuer: "Coursera",
         details: "Project Certificate",
         date: "November 15, 2025",
-        link: "/certificates/google-analytics.pdf"
+        link: "./certificates/google-analytics.pdf"
       },
       {
         title: "Artificial Intelligence Certification",
@@ -168,7 +168,7 @@ export const portfolioData = {
     label: "// RESUME",
     title: "Curriculum Vitae",
     description: "View my full resume inline or download a copy for your records.",
-    fileUrl: "/resume.pdf"
+    fileUrl: "./resume.pdf"
   },
   contact: {
     label: "// CONTACT",
